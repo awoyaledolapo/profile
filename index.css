@@ -1,0 +1,132 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    outline:none;
+    scroll-behavior: smooth;
+    font-family:"poppins";
+    background-color: black;
+
+}
+html{
+    font-size:60%;
+   
+}
+header{
+    padding:4rem 6%;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+
+    
+}
+section{
+    
+    padding:40px 30px;
+}
+#profile{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.profile-content{
+    font-size: 3em;
+}
+.colored{
+    color: rgb(76, 251, 114);
+}
+h1,h3{
+    color: aliceblue;
+}
+#profile img{
+    border: 2px solid rgb(254, 251, 251) ;
+    border-radius: 60px ;
+    margin-left:0px ;
+}
+#my-goals{
+    /* position: relative; */
+    /* bottom: 5em; */
+    /* right:10em; */
+    color:white;
+    font-size: 1.5em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.time{
+    font-size:3em;
+}
+.day{
+    font-size:1.6em;
+}
+
+.email{
+    color: aliceblue;
+    font-size: 1.4rem;
+}
+footer{
+    /* position: relative; */
+    /* bottom: 15em; */
+    margin:auto;
+    /* left:2em; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 80%;
+
+}
+.learn{
+    color: aliceblue;
+font-size: 1.4rem;
+/* position: relative; */
+/* bottom: 2.9em; */
+}
+.learn ul{
+    text-decoration: none;
+    list-style: none;
+}
+.learn ul li a{
+    color: rgb(52, 244, 94);
+    text-decoration: none;
+}
+
+ /* media query */
+
+ 
+@media (min-width:300px) and (max-width :800px) {
+
+    #profile{
+        flex-direction: column;
+    }
+    section{
+    
+        padding: 0px;
+    }
+    .profile-content h3{
+        display: none;
+    }
+    header{
+       padding: 0px;
+       margin: 10px 10px;
+    }
+
+    #my-goals{
+     flex-direction: column;
+     padding: 20px 10px;
+     margin: 30px 20px;
+    }
+img{
+    padding: 10px 10px;
+}
+.profile-content{
+    margin: 60px 20px;
+    padding: 10px 10px;
+}
+.day-time{
+    padding: 10px 10px;
+    margin: 30px 20px;
+}
+footer{
+    padding: 0px;
+}
+}
